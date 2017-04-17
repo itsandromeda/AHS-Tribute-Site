@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+* {
+    font-family: "Ubuntu", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+/*
+  ========================================
+  Navigation bar
+  ========================================
+*/
+
+nav {
+    background: #F2F2F2;
+    border-bottom: 1px solid #ebebeb;
+    box-sizing: border-box;
+    position: relative;
+    height: 60px;
+}
+
+.nav-l {
+    float: left;
+    height: 50px;
+    width: 50px;
+    padding: 5px 50px;
+}
+
+.logo {
+    background-image: url(../images/AHS-logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+}
+
+.nav-r {
+    float: right;
+    position: relative;
+    top: 21px;
+    right: 50px;
+}
+
+.nav-text {
+    text-decoration: none;
+    color: #333;
+    padding: 20px 30px;
+}
+
+.nav-text:hover {
+    color: #EF1D28;
+    border-bottom: 1px solid #2D0B0A;
+}
+
+.caps {
+    text-transform: uppercase;
+}
