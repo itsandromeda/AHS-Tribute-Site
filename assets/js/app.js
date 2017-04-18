@@ -58,3 +58,13 @@ window.addEventListener('load', function () {
         print(season[i], source[i], i);
     }
 });
+
+document.getElementById("extras").addEventListener("click", function () {
+    "use strict";
+    document.getElementById("text-a").classList.toggle("hide");
+});
+
+document.getElementById("about").addEventListener("click", function () {
+    "use strict";
+    document.getElementById("text-b").classList.toggle("hide");
+});
