@@ -37,6 +37,12 @@ function print(alt, src, i) {
     img.setAttribute("alt", alt);
     span.classList.add("delete");
     span.appendChild(spanText);
+
+    span.addEventListener('click', function (e) {
+        var parentSpan = e.target.parentNode;
+        parentSpan.setAttribute("class", "hide");
+    });
+
     figure.setAttribute("id", "fig" + i);
     figure.classList.add("show");
     figure.appendChild(img);
