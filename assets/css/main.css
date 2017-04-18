@@ -134,6 +134,28 @@ figure {
   ========================================
 */
 
+.content {
+    color: #333;
+    width: 800px;
+    height: 230px;
+    margin: 20px auto;
+}
+
+#text-a,
+#text-b {
+    box-sizing: border-box;
+    width: 400px;
+    padding: 15px;
+}
+
+#text-a {
+    float: right;
+}
+
+#text-b {
+    float: left;
+}
+
 .show {
     display: inline-block;
 }
