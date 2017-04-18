@@ -68,3 +68,16 @@ document.getElementById("about").addEventListener("click", function () {
     "use strict";
     document.getElementById("text-b").classList.toggle("hide");
 });
+
+document.getElementById("show-gallery").addEventListener("click", function () {
+    "use strict";
+    var photos = document.getElementsByClassName("show"),
+        i;
+
+    for (i = 0; i < seasons.length; i += 1) {
+        if (document.getElementById("fig" + i).classList.contains("hide")) {
+            document.getElementById("fig" + i).classList.remove("hide");
+            document.getElementById("fig" + i).classList.add("show");
+        }
+    }
+});
